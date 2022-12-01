@@ -129,7 +129,7 @@ class _PostNotState extends State<PostNot> {
                   _dadosF = null;
                 });
               },
-              child: Text("Enviar")),
+              child: Text("Mandar dados")),
               
               ),
 
@@ -143,7 +143,7 @@ class _PostNotState extends State<PostNot> {
                       builder: (context) => const QrcodeWriter(),
                     ));
               },
-              child: Text("Pegar a api")),
+              child: Text("Habilitar QR Code")),
               ),
 
           (_dadosF == null) ? botao() : buildFutureBuilder(),
