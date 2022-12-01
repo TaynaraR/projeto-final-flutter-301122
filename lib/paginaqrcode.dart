@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:localstorage/localstorage.dart';
 import 'dart:convert';
-class QRCodePage extends StatefulWidget {
-  const QRCodePage({Key? key}) : super(key: key);
+class paginaqrcode extends StatefulWidget {
+  const paginaqrcode({Key? key}) : super(key: key);
 
   @override
-  State<QRCodePage> createState() => _QRCodePageState();
+  State<paginaqrcode> createState() => _paginaqrcodeState();
 }
 final LocalStorage storage = new LocalStorage('localstorage_app');
 
@@ -27,7 +27,7 @@ void getitemFromLocalStorage() {
  
 }
 
-class _QRCodePageState extends State<QRCodePage> {
+class _paginaqrcodeState extends State<paginaqrcode> {
   String ticket = '';
   List<String> tickets = [];
 

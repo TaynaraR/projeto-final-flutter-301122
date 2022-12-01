@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter/material.dart';
-import 'PostNot.dart';
+import 'RotaPost.dart';
 
 void main() {
-  runApp(MaterialApp(title: 'Ai calica', home: PostNot()));
+  runApp(MaterialApp(title: 'Flutter QrCode', home: RotaPost()));
 }

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'qrcode_page.dart';
+import 'paginaqrcode.dart';
 import 'package:localstorage/localstorage.dart';
 
-class QrcodeWriter extends StatelessWidget {
-  const QrcodeWriter({Key? key}) : super(key: key);
+class Qrcode extends StatelessWidget {
+  const Qrcode({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class QrcodeWriter extends StatelessWidget {
           ),
         ),
         themeMode: ThemeMode.dark,
-        home: const QRCodePage(),
+        home: const paginaqrcode(),
       ),
     );
   }

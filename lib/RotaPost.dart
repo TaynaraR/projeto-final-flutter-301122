@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
-import 'qrcodeWriter.dart';
+import 'qrcode.dart';
 import 'package:localstorage/localstorage.dart';
 
 String URL = "www.slmm.com.br/CTC/insere.php";
@@ -46,14 +46,14 @@ Future<String> listData() async {
 
 
 
-class PostNot extends StatefulWidget {
-  const PostNot({Key? key}) : super(key: key);
+class RotaPost extends StatefulWidget {
+  const RotaPost({Key? key}) : super(key: key);
 
   @override
-  _PostNotState createState() => _PostNotState();
+  _RotaPostState createState() => _RotaPostState();
 }
 
-class _PostNotState extends State<PostNot> {
+class _RotaPostState extends State<RotaPost> {
   final nomeController = TextEditingController();
   final dataController = TextEditingController();
   Future<String>? _dadosF;
@@ -140,7 +140,7 @@ class _PostNotState extends State<PostNot> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const QrcodeWriter(),
+                      builder: (context) => const Qrcode(),
                     ));
               },
               child: Text("Habilitar QR Code")),
