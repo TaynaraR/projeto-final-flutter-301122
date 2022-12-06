@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/Users/u21114/.gradle/caches/transforms-3/8126e1f02fbd5b999f38c6a32c8e233c/transformed/jetified-play-services-basement-17.4.0/res/values-tl/values.xml",

@@ -1,7 +1,7 @@
-#Wed Nov 30 22:29:19 BRT 2022
-base.1=/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
+#Tue Dec 06 20:20:09 BRT 2022
+base.1=/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 path.1=classes2.dex
-base.0=/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+base.0=/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

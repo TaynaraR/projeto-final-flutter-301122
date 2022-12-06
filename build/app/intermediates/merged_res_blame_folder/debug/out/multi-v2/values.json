@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/u21114/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/res/values/values.xml",
@@ -188,23 +188,6 @@
                     }
                 },
                 {
-                    "source": "/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,169,219,291,355,437,507,627,784,818,919,973,1043",
-                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
-                        "endOffsets": "108,164,214,286,350,432,502,622,779,813,914,968,1038,1086"
-                    },
-                    "to": {
-                        "startLines": "607,608,1092,1093,1094,1095,1096,1139,1190,1191,1197,1198,1201,1202",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "33298,33356,64194,64244,64316,64380,64462,69626,78408,78565,79401,79502,79680,79750",
-                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
-                        "endOffsets": "33351,33407,64239,64311,64375,64457,64527,69741,78560,78594,79497,79551,79745,79793"
-                    }
-                },
-                {
                     "source": "/Users/u21114/.gradle/caches/transforms-3/ae893b832c725ae41cefb75af7327aef/transformed/cardview-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -243,25 +226,6 @@
                     }
                 },
                 {
-                    "source": "/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "3138,3191",
-                        "startColumns": "4,4",
-                        "startOffsets": "206908,210720",
-                        "endLines": "3142,3193",
-                        "endColumns": "12,12",
-                        "endOffsets": "207211,210884"
-                    }
-                },
-                {
                     "source": "/Users/u21114/.gradle/caches/transforms-3/f9c596d18d69b11c835d857fb1e78551/transformed/jetified-startup-runtime-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -295,6 +259,23 @@
                         "endLines": "310,671,672,673,681,682,683,970,7375",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "14746,37497,37545,37601,38287,38363,38435,57037,478737"
+                    }
+                },
+                {
+                    "source": "/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,219,291,355,437,507,627,784,818,919,973,1043",
+                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
+                        "endOffsets": "108,164,214,286,350,432,502,622,779,813,914,968,1038,1086"
+                    },
+                    "to": {
+                        "startLines": "607,608,1092,1093,1094,1095,1096,1139,1190,1191,1197,1198,1201,1202",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "33298,33356,64194,64244,64316,64380,64462,69626,78408,78565,79401,79502,79680,79750",
+                        "endColumns": "57,55,49,71,63,81,69,119,156,33,100,53,69,47",
+                        "endOffsets": "33351,33407,64239,64311,64375,64457,64527,69741,78560,78594,79497,79551,79745,79793"
                     }
                 },
                 {
@@ -403,6 +384,25 @@
                         "endLines": "966,991,1026,6684,6688",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "56850,58065,59874,436775,436924"
+                    }
+                },
+                {
+                    "source": "/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "3138,3191",
+                        "startColumns": "4,4",
+                        "startOffsets": "206908,210720",
+                        "endLines": "3142,3193",
+                        "endColumns": "12,12",
+                        "endOffsets": "207211,210884"
                     }
                 }
             ]

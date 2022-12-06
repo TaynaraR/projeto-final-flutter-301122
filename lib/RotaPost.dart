@@ -5,11 +5,11 @@ import 'dart:convert';
 import 'qrcode.dart';
 import 'package:localstorage/localstorage.dart';
 
-String URL = "www.slmm.com.br/CTC/insere.php";
+String URL = "https://slmm.com.br/CTC/insere.php";
 final LocalStorage storage = new LocalStorage('localstorage_app');
 
-Future<String> fetchData() async {
-  Map data = {"nome":"a", "data": "03/03/22 00:00:33"};
+Future<String> fetchData(String nome, String dates) async {
+  Map data = {"nome":"${nome}","data":"${dates}"};
 
   String body = json.encode(data);
   print(body);
@@ -32,7 +32,7 @@ Future<String> listData() async {
   String body = json.encode(data);
   print(body);
 
-  var response = await http.get(Uri.parse("www.slmm.com.br/CTC/getLista.php"));
+  var response = await http.get(Uri.parse("https://www.slmm.com.br/CTC/getLista.php"));
       print(response.statusCode);
   if (response.statusCode == 200) {
     String json2 = json.encode(response.body);
@@ -82,7 +82,7 @@ class _RotaPostState extends State<RotaPost> {
     return ElevatedButton(
         onPressed: () {
           setState(() {
-            _dadosF = fetchData();
+            _dadosF = fetchData("","");
           });
         },
         child: Text("enviar dados"));
@@ -118,15 +118,15 @@ class _RotaPostState extends State<RotaPost> {
               margin: EdgeInsets.all(3),
               child: ElevatedButton(
               onPressed: () {
-                showDialog(
-                    context: context,
-                    builder: (context) {
-                      return AlertDialog(
-                        content: Text(nomeController.text),
-                      );
-                    });
+               // showDialog(
+                   // context: context,
+                   // builder: (context) {
+                     // return AlertDialog(
+                     //   content: Text(nomeController.text),
+                     // );
+                  //  });
                 setState(() {
-                  _dadosF = null;
+                  fetchData(nomeController.text,dataController.text);
                 });
               },
               child: Text("Mandar dados")),
@@ -146,7 +146,7 @@ class _RotaPostState extends State<RotaPost> {
               child: Text("Habilitar QR Code")),
               ),
 
-          (_dadosF == null) ? botao() : buildFutureBuilder(),
+         // (_dadosF == null) ? botao() : buildFutureBuilder(),
         ]),
       ),
     );

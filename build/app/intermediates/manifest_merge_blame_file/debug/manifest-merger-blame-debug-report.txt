@@ -13,19 +13,19 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/android/app/src/debug/AndroidManifest.xml:7:5-66
-15-->/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/android/app/src/debug/AndroidManifest.xml:7:22-64
+15-->/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/android/app/src/debug/AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
-16-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-62
+16-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
+16-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-62
 17
 18    <uses-feature android:name="android.hardware.camera" />
-18-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-60
-18-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:19-57
+18-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-60
+18-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:19-57
 19
 20    <uses-permission android:name="android.permission.FLASHLIGHT" />
-20-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-69
-20-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-66
+20-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-69
+20-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-66
 21
 22    <uses-feature
 22-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/u21114/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
@@ -67,9 +67,9 @@
 43        android:icon="@mipmap/ic_launcher"
 44        android:label="projfinalflutter"
 45        android:largeHeap="true"
-45-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-33
+45-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-33
 46        android:theme="@style/Theme.AppCompat.NoActionBar" >
-46-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-59
+46-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-59
 47        <activity
 48            android:name="com.example.projfinalflutter.MainActivity"
 49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -104,8 +104,8 @@
 78            android:value="2" />
 79
 80        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
-80-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-91
-80-->[:flutter_barcode_scanner] /Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:18:19-88
+80-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-91
+80-->[:flutter_barcode_scanner] /Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:18:19-88
 81
 82        <uses-library
 82-->[androidx.window:window:1.0.0-beta04] /Users/u21114/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40

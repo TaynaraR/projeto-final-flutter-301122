@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/u21114/403not/proj-final-flutter/projeto-final-flutter-301122/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "/Users/u21114/Documents/ProjFinal/projeto-final-flutter-301122/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/u21114/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
